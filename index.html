@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <title>Clínica Odontológica Aguiar</title>
+     <link rel="stylesheet" href="css/style.css" />
+     <script>
+        window.onload = function () {
+            var permitido = confirm("Essa página é destinada para maiores de 18 anos. Você confirma que tem 18 anos ou mais?");
+            if (!permitido) {
+                window.open('', '_self', '');
+                window.close();
+                    setTimeout(function() {
+                    window.location.href = "https://www.google.com";
+                }, 100);
+            }
+        };
+     </script>
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1 class="logo">Clínica Odontológica Aguiar</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contatos</a></li>
+                <li><a href="https://wa.me/5593991850000?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" class="btn-agendamento">Agende sua consulta</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="home">
+    <div class="container">
+        <h2>Transformando sorrisos, cuidando de você</h2>
+        <p>A Clínica Aguiar oferece atendimento humanizado com tecnologia e qualidade.</p>   
+    </div>
+</section>
+
+<section id="servicos">
+    <div class="container">
+        <h2>Nossos Serviços</h2>
+        <div class="servicos-grid">
+            <div class="servico">
+                <img src="img/ortodontia.jpg" alt="Ortodontia">
+                <p>Ortodontia</p>
+            </div>
+            <div class="servico">
+                <img src="img/implantes.jpg" alt="Implantes">
+                <p>Implantes</p>
+            </div>
+            <div class="servico">
+                <img src="img/clareamento.jpg" alt="Clareamento">
+                <p>Clareamento Dental</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="depoimentos">
+    <div class="container">
+        <h2>Depoimentos</h2>
+        <div class="depoimentos-grid">
+            <div class="depoimento">
+                <img src="img/depoimento1.jpg" alt="Paciente 1">
+                <p>"Atendimento excelente! Me senti muito seguro e acolhido."</p>
+                </div>
+            <div class="depoimento">
+                <img src="img/depoimento2.jpg" alt="Paciente 2">
+                <p>"Serviço de qualidade e equipe atenciosa. Recomendo muito!"</p>
+                <p>"A Dra. Larissa é excelente."</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contato">
+    <div class="container">
+        <h2>Contato</h2>
+        <p>Email: contato@clinicaaguiar.com.br</p>
+        <p>Telefone: (93) 99185-0000</p>
+        <p>
+            <a href="https://wa.me/5593991856000" target="_blank">Fale conosco pelo WhatsApp</a>
+        </p>
+        <div class="mapa">
+            <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12229.442903823332!2d-47.8705639!3d-15.7997594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3094f35e71d7%3A0x76f3d0400848087e!2sPra%C3%A7a%20dos%20Tr%C3%AAs%20Poderes!5e0!3m2!1spt-BR!2sbr!4v1718203352711!5m2!1spt-BR!2sbr" 
+    width="100%" 
+    height="300" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 Clínica Odontológica Aguiar. Todos os direitos reservados.</p>
+        <p>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        </p>
+    </div>
+</footer>
+</body>
+</html>
